@@ -1,0 +1,40 @@
+{
+  "identifier" : "LessonfeeConfig",
+  "nonRenewingSubscriptions" : [],
+  "products" : [],
+  "settings" : {},
+  "subscriptionGroups" : [
+    {
+      "id" : "lessonfee_group",
+      "localizations" : [],
+      "name" : "Lessonfee Pro",
+      "subscriptions" : [
+        {
+          "adHocOffers" : [],
+          "codeOffers" : [],
+          "displayPrice" : "$2.99",
+          "familyShareable" : false,
+          "groupNumber" : 1,
+          "internalID" : "lessonfee_pro_monthly_internal",
+          "introductoryOffer" : null,
+          "localizations" : [
+            {
+              "description" : "Unlock Per-child annual lesson spend and instructor comparison",
+              "displayName" : "Lessonfee Pro Monthly",
+              "locale" : "en_US"
+            }
+          ],
+          "productID" : "lessonfee_pro_monthly",
+          "recurringSubscriptionPeriod" : "P1M",
+          "referenceName" : "Lessonfee Pro Monthly",
+          "subscriptionGroupID" : "lessonfee_group",
+          "type" : "RecurringSubscription"
+        }
+      ]
+    }
+  ],
+  "version" : {
+    "major" : 3,
+    "minor" : 0
+  }
+}
